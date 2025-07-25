@@ -28,8 +28,8 @@ CREATE TABLE Member(
 CREATE TABLE PrmaryInvestigator(
 	empID INT PRIMARY KEY,
     piID INT NOT NULL,
-    FOREIGN KEY(empID) REFERENCES Member(memID),
-    FOREIGN KEY(piID) REFERENCES Member(memID)
+    FOREIGN KEY(empID) REFERENCES Member(memID) ON DELETE CASCADE,
+    FOREIGN KEY(piID) REFERENCES Member(memID) ON DELETE CASCADE
 );
 
 CREATE TABLE Supervisor(
@@ -37,8 +37,8 @@ CREATE TABLE Supervisor(
     superID INT NOT NULL,
     supStart DATE NOT NULL,
     supEnd DATE,
-	FOREIGN KEY(subID) REFERENCES Member(memID),
-    FOREIGN KEY(superID) REFERENCES Member(memID)
+	FOREIGN KEY(subID) REFERENCES Member(memID) ON DELETE CASCADE,
+    FOREIGN KEY(superID) REFERENCES Member(memID) ON DELETE CASCADE
 );
 
 CREATE TABLE Project(
@@ -48,7 +48,7 @@ CREATE TABLE Project(
     pLead INT NOT NULL,
     pLeadStart DATE NOT NULL,
     PLeadEnd DATE,
-    FOREIGN KEY(pLead) REFERENCES Member(memID)
+    FOREIGN KEY(pLead) REFERENCES Member(memID) ON DELETE SET NULL
 );
 
 CREATE TABLE Research(
@@ -61,8 +61,8 @@ CREATE TABLE Informs(
 	resID INT NOT NULL,
     projID INT NOT NULL,
     PRIMARY KEY(resID,projID),
-    FOREIGN KEY(resID) REFERENCES Research(resID),
-    FOREIGN KEY(projID) REFERENCES Project(projID)
+    FOREIGN KEY(resID) REFERENCES Research(resID) ON DELETE CASCADE,
+    FOREIGN KEY(projID) REFERENCES Project(projID) ON DELETE CASCADE
 );
 
 CREATE TABLE Procedures(
@@ -78,17 +78,8 @@ CREATE TABLE Experiment(
     expName VARCHAR(50) NOT NULL,
     pLeadStart DATE NOT NULL,
     pLeadEnd DATE,
-	FOREIGN KEY(eLead) REFERENCES Member(memID),
-    FOREIGN KEY (projID) REFERENCES Project(projID)
-);
-
-CREATE TABLE Spectra(
-	spID INT PRIMARY KEY AUTO_INCREMENT,
-    sName VARCHAR(500) NOT NULL,
-    formula VARCHAR(250),
-    numPeaks int NOT NULL,
-    contributor VARCHAR(50) NOT NULL,
-    casNo VARCHAR(10)
+	FOREIGN KEY(eLead) REFERENCES Member(memID) ON DELETE SET NULL,
+    FOREIGN KEY (projID) REFERENCES Project(projID) ON DELETE CASCADE
 );
 
 CREATE TABLE Sample(
@@ -97,8 +88,8 @@ CREATE TABLE Sample(
     procID INT NOT NULL,
     samName VARCHAR(50),
     normFact INT,
-    FOREIGN KEY(procID) REFERENCES Procedures(procID),
-    FOREIGN KEY(expID) REFERENCES Experiment(expID)
+    FOREIGN KEY(procID) REFERENCES Procedures(procID) ON DELETE CASCADE,
+    FOREIGN KEY(expID) REFERENCES Experiment(expID) ON DELETE CASCADE
 );
 
 CREATE TABLE Note(
@@ -110,31 +101,40 @@ CREATE TABLE Note(
 CREATE TABLE ProjNote(
 	noteID INT PRIMARY KEY,
     projID INT NOT NULL,
-    FOREIGN KEY(noteID) REFERENCES Note(noteID),
-    FOREIGN KEY(projID) REFERENCES Project(projID)
+    FOREIGN KEY(noteID) REFERENCES Note(noteID) ON DELETE CASCADE,
+    FOREIGN KEY(projID) REFERENCES Project(projID) ON DELETE CASCADE
 );
 
 CREATE TABLE ExpNote(
 	noteID INT PRIMARY KEY,
     expID INT NOT NULL,
-    FOREIGN KEY(noteID) REFERENCES Note(noteID),
-    FOREIGN KEY(expID) REFERENCES Experiment(expID)
+    FOREIGN KEY(noteID) REFERENCES Note(noteID) ON DELETE CASCADE,
+    FOREIGN KEY(expID) REFERENCES Experiment(expID) ON DELETE CASCADE
+);
+
+CREATE TABLE Spectra(
+	spID INT PRIMARY KEY AUTO_INCREMENT,
+    sName VARCHAR(100) NOT NULL,
+    formula VARCHAR(100),
+    numPeaks int NOT NULL,
+    data_source VARCHAR(50) NOT NULL,
+    casNo VARCHAR(10)
 );
 
 CREATE TABLE samSpectra(
 	samID INT NOT NULL,
     spID INT NOT NULL,
     PRIMARY KEY(samID,spID),
-    FOREIGN KEY(samID) REFERENCES Sample(samID),
-    FOREIGN KEY(spID) REFERENCES Spectra(spID)
+    FOREIGN KEY(samID) REFERENCES Sample(samID) ON DELETE CASCADE,
+    FOREIGN KEY(spID) REFERENCES Spectra(spID) ON DELETE CASCADE
 );
 
 CREATE TABLE expSpectra(
 	expID INT NOT NULL,
     spID INT NOT NULL,
     PRIMARY KEY(expID,spID),
-    FOREIGN KEY(expID) REFERENCES Experiment(expID),
-    FOREIGN KEY(spID) REFERENCES Spectra(spID)
+    FOREIGN KEY(expID) REFERENCES Experiment(expID) ON DELETE CASCADE,
+    FOREIGN KEY(spID) REFERENCES Spectra(spID) ON DELETE CASCADE
 );
 
 CREATE TABLE Intensities(
@@ -142,5 +142,5 @@ CREATE TABLE Intensities(
     mz INT NOT NULL,
     intensity INT NOT NULL,
     PRIMARY KEY(spID,mz,intensity),
-    FOREIGN KEY(spID) REFERENCES Spectra(spID)
+    FOREIGN KEY(spID) REFERENCES Spectra(spID) ON DELETE CASCADE
 );
