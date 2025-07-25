@@ -3,7 +3,7 @@
     "memID": 1,
     "memName": "Julie Cummings",
     "email": "noblejustin@reyes-whitaker.org",
-    "memType": "PI",
+    "memType": "research scientist",
     "memStart": "2022-03-10",
     "memEnd": null,
     "phone": "+1-476-822-1719"
@@ -147,7 +147,7 @@
     "memID": 17,
     "memName": "Brian Hernandez",
     "email": "jason34@gmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2025-02-18",
     "memEnd": "2025-06-07",
     "phone": "(879)081-2494x34439"
@@ -165,7 +165,7 @@
     "memID": 19,
     "memName": "Daniel Webb",
     "email": "swilliams@rodriguez.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2021-03-01",
     "memEnd": null,
     "phone": "+1-786-086-3110"
@@ -192,7 +192,7 @@
     "memID": 22,
     "memName": "Alan Flores",
     "email": "nsmith@hotmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2022-02-10",
     "memEnd": null,
     "phone": "897-663-9656x019"
@@ -201,7 +201,7 @@
     "memID": 23,
     "memName": "Ashley Barrera MD",
     "email": "amanda62@griffin-moore.com",
-    "memType": "PI",
+    "memType": "postdoc",
     "memStart": "2022-05-29",
     "memEnd": null,
     "phone": "284-109-9820"
@@ -291,7 +291,7 @@
     "memID": 33,
     "memName": "Traci Leonard",
     "email": "qmurray@cooper.com",
-    "memType": "research assistant",
+    "memType": "PI",
     "memStart": "2024-10-21",
     "memEnd": null,
     "phone": "350-309-3310x9700"
@@ -300,7 +300,7 @@
     "memID": 34,
     "memName": "Stephen Henderson",
     "email": "kirbystephen@yahoo.com",
-    "memType": "PI",
+    "memType": "postdoc",
     "memStart": "2022-09-06",
     "memEnd": "2023-02-12",
     "phone": "+1-761-331-9820x012"
@@ -309,7 +309,7 @@
     "memID": 35,
     "memName": "Heather Henry",
     "email": "melissa59@hotmail.com",
-    "memType": "phd student",
+    "memType": "PI",
     "memStart": "2024-05-06",
     "memEnd": null,
     "phone": "539-883-3686x790"
@@ -327,7 +327,7 @@
     "memID": 37,
     "memName": "Angela Rogers",
     "email": "frank62@hotmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2020-08-20",
     "memEnd": null,
     "phone": "(738)141-3375x3627"
@@ -372,7 +372,7 @@
     "memID": 42,
     "memName": "Rebecca Warren",
     "email": "tylerolson@jackson-barton.net",
-    "memType": "PI",
+    "memType": "postdoc",
     "memStart": "2023-01-29",
     "memEnd": "2023-04-26",
     "phone": "(467)926-4645x626"
@@ -399,7 +399,7 @@
     "memID": 45,
     "memName": "Lisa Bryant",
     "email": "cwilliams@lawson.com",
-    "memType": "PI",
+    "memType": "postdoc",
     "memStart": "2022-03-24",
     "memEnd": null,
     "phone": "+1-753-675-7145x2277"
@@ -408,7 +408,7 @@
     "memID": 46,
     "memName": "Thomas Love",
     "email": "harmonisaiah@gmail.com",
-    "memType": "phd student",
+    "memType": "PI",
     "memStart": "2025-03-18",
     "memEnd": null,
     "phone": "001-867-011-5316x11884"
@@ -471,7 +471,7 @@
     "memID": 53,
     "memName": "Tyler Cervantes",
     "email": "weaverkeith@perez.info",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2021-12-28",
     "memEnd": "2024-12-31",
     "phone": "(950)816-9618x2979"
@@ -507,7 +507,7 @@
     "memID": 57,
     "memName": "John Hunter",
     "email": "nbowen@williams.info",
-    "memType": "PI",
+    "memType": "postdoc",
     "memStart": "2023-12-06",
     "memEnd": null,
     "phone": "066-750-8185x5419"
@@ -516,7 +516,7 @@
     "memID": 58,
     "memName": "Thomas Johnson",
     "email": "vlynch@gmail.com",
-    "memType": "postdoc",
+    "memType": "PI",
     "memStart": "2024-02-23",
     "memEnd": null,
     "phone": "301-239-0430"
@@ -543,7 +543,7 @@
     "memID": 61,
     "memName": "Jennifer Foster",
     "email": "jessica22@yahoo.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2021-10-06",
     "memEnd": "2024-05-12",
     "phone": "535-065-2065x8041"
@@ -552,7 +552,7 @@
     "memID": 62,
     "memName": "Terri Newton",
     "email": "huntcarolyn@bernard.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2021-05-23",
     "memEnd": null,
     "phone": "5177229358"
@@ -561,7 +561,7 @@
     "memID": 63,
     "memName": "Mr. Joseph Wang",
     "email": "williamknight@phelps.com",
-    "memType": "PI",
+    "memType": "research technician",
     "memStart": "2022-04-23",
     "memEnd": "2025-07-18",
     "phone": "(995)022-0918x68491"
@@ -588,7 +588,7 @@
     "memID": 66,
     "memName": "Juan Taylor",
     "email": "twright@hotmail.com",
-    "memType": "postdoc",
+    "memType": "PI",
     "memStart": "2022-10-25",
     "memEnd": null,
     "phone": "+1-530-286-9828x799"
@@ -624,7 +624,7 @@
     "memID": 70,
     "memName": "Tammy Collins",
     "email": "wmartin@freeman-moon.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2025-02-11",
     "memEnd": null,
     "phone": "001-727-845-1090"
@@ -669,7 +669,7 @@
     "memID": 75,
     "memName": "Shane Martinez",
     "email": "andersonpatrick@parker.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2020-12-24",
     "memEnd": null,
     "phone": "016-419-5048"
@@ -678,7 +678,7 @@
     "memID": 76,
     "memName": "Virginia Williams",
     "email": "michaelfrost@hotmail.com",
-    "memType": "phd student",
+    "memType": "PI",
     "memStart": "2021-12-29",
     "memEnd": null,
     "phone": "+1-928-680-7709x15192"
@@ -687,7 +687,7 @@
     "memID": 77,
     "memName": "Keith Rivera",
     "email": "sharpjeff@johnson.net",
-    "memType": "PI",
+    "memType": "volunteer",
     "memStart": "2024-06-15",
     "memEnd": null,
     "phone": "470-920-2603x2866"
@@ -696,7 +696,7 @@
     "memID": 78,
     "memName": "Mark Carroll",
     "email": "qlester@miranda-quinn.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2024-11-10",
     "memEnd": null,
     "phone": "954.311.4447x5887"
@@ -759,7 +759,7 @@
     "memID": 85,
     "memName": "Lisa Nelson",
     "email": "henryjimenez@henson-thompson.com",
-    "memType": "Volunteer",
+    "memType": "PI",
     "memStart": "2021-12-04",
     "memEnd": null,
     "phone": "750-847-9724"
@@ -786,7 +786,7 @@
     "memID": 88,
     "memName": "Michelle Fernandez",
     "email": "anna73@mason-jackson.net",
-    "memType": "PI",
+    "memType":  "postdoc",
     "memStart": "2022-03-06",
     "memEnd": null,
     "phone": "438.089.3838x80196"
@@ -840,7 +840,7 @@
     "memID": 94,
     "memName": "April Taylor",
     "email": "mgonzalez@hotmail.com",
-    "memType": "PI",
+    "memType": "postdoc",
     "memStart": "2022-10-12",
     "memEnd": null,
     "phone": "001-000-905-3361x690"
@@ -876,7 +876,7 @@
     "memID": 98,
     "memName": "Brenda Fox",
     "email": "frank41@gmail.com",
-    "memType": "masters student",
+    "memType": "PI",
     "memStart": "2024-07-24",
     "memEnd": null,
     "phone": "001-197-725-1652"
@@ -894,7 +894,7 @@
     "memID": 100,
     "memName": "Ryan Mullins",
     "email": "christina01@gmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2025-03-20",
     "memEnd": "2025-05-20",
     "phone": "251.659.5661x946"
@@ -921,7 +921,7 @@
     "memID": 103,
     "memName": "Natalie Gray",
     "email": "pottsmadeline@parks.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2023-07-06",
     "memEnd": null,
     "phone": "(145)185-3153x678"
@@ -930,7 +930,7 @@
     "memID": 104,
     "memName": "Michael Curry",
     "email": "charlestravis@gmail.com",
-    "memType": "PI",
+    "memType": "postdoc",
     "memStart": "2022-06-24",
     "memEnd": null,
     "phone": "(407)182-7263"
@@ -984,7 +984,7 @@
     "memID": 110,
     "memName": "Robert Cunningham",
     "email": "hartkevin@wong.com",
-    "memType": "PI",
+    "memType": "postdoc",
     "memStart": "2024-07-03",
     "memEnd": null,
     "phone": "(577)377-1050x175"
@@ -1002,7 +1002,7 @@
     "memID": 112,
     "memName": "Dustin Dodson",
     "email": "deborahwoods@hotmail.com",
-    "memType": "masters student",
+    "memType": "PI",
     "memStart": "2021-12-10",
     "memEnd": null,
     "phone": "(809)899-5233"
@@ -1029,7 +1029,7 @@
     "memID": 115,
     "memName": "Rachel Hale",
     "email": "brandi89@smith.net",
-    "memType": "research scientist",
+    "memType": "PI",
     "memStart": "2021-08-06",
     "memEnd": null,
     "phone": "001-614-294-8187x02114"
@@ -1038,7 +1038,7 @@
     "memID": 116,
     "memName": "Kelsey York",
     "email": "wreynolds@robertson.biz",
-    "memType": "research associate",
+    "memType": "PI",
     "memStart": "2024-11-17",
     "memEnd": null,
     "phone": "+1-909-335-9142x47560"
@@ -1065,7 +1065,7 @@
     "memID": 119,
     "memName": "Dr. Molly Olsen",
     "email": "christopher47@howell-johnson.biz",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2022-12-16",
     "memEnd": "2024-02-08",
     "phone": "+1-878-492-3379x270"
@@ -1236,7 +1236,7 @@
     "memID": 138,
     "memName": "Jamie Page",
     "email": "smithapril@gmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2020-09-24",
     "memEnd": null,
     "phone": "726-429-0687"
@@ -1245,7 +1245,7 @@
     "memID": 139,
     "memName": "Thomas Morgan",
     "email": "dylanwalsh@yahoo.com",
-    "memType": "Volunteer",
+    "memType": "PI",
     "memStart": "2023-09-05",
     "memEnd": null,
     "phone": "(140)639-1811"
@@ -1263,7 +1263,7 @@
     "memID": 141,
     "memName": "Brandon Frazier",
     "email": "amber25@norman.biz",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2024-12-06",
     "memEnd": "2025-05-21",
     "phone": "+1-258-126-7892x55466"
@@ -1272,7 +1272,7 @@
     "memID": 142,
     "memName": "Emily Mcdaniel",
     "email": "jermaine21@diaz.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2024-02-19",
     "memEnd": "2024-08-20",
     "phone": "651.331.8843x41751"
@@ -1281,7 +1281,7 @@
     "memID": 143,
     "memName": "Heather Wood",
     "email": "thomas88@anderson.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2022-01-15",
     "memEnd": null,
     "phone": "597.070.8449"
@@ -1317,7 +1317,7 @@
     "memID": 147,
     "memName": "Shirley Pennington",
     "email": "richardcarrillo@gmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2024-01-12",
     "memEnd": null,
     "phone": "(396)009-2940"
@@ -1326,7 +1326,7 @@
     "memID": 148,
     "memName": "Clarence Murphy",
     "email": "diane06@bautista.org",
-    "memType": "PI",
+    "memType": "masters student",
     "memStart": "2021-12-05",
     "memEnd": "2024-10-28",
     "phone": "(600)799-1312x5324"
@@ -1335,7 +1335,7 @@
     "memID": 149,
     "memName": "Andrew Maldonado",
     "email": "anna77@richards-barnes.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2020-08-23",
     "memEnd": null,
     "phone": "+1-861-632-0703"
@@ -1389,7 +1389,7 @@
     "memID": 155,
     "memName": "John Macdonald",
     "email": "elambert@hotmail.com",
-    "memType": "PI",
+    "memType": "masters student",
     "memStart": "2021-07-26",
     "memEnd": null,
     "phone": "425.889.3047x892"
@@ -1407,7 +1407,7 @@
     "memID": 157,
     "memName": "Chad Zuniga",
     "email": "sarah83@thomas.com",
-    "memType": "Volunteer",
+    "memType": "PI",
     "memStart": "2021-06-14",
     "memEnd": null,
     "phone": "+1-972-053-4533"
@@ -1461,7 +1461,7 @@
     "memID": 163,
     "memName": "Laurie Mcdonald",
     "email": "suzanne65@gmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2024-11-23",
     "memEnd": "2025-04-13",
     "phone": "001-260-251-8184x27935"
@@ -1506,7 +1506,7 @@
     "memID": 168,
     "memName": "Cindy Rogers",
     "email": "james91@yahoo.com",
-    "memType": "PI",
+    "memType": "phd student",
     "memStart": "2023-10-21",
     "memEnd": null,
     "phone": "001-084-674-3492x607"
@@ -1587,7 +1587,7 @@
     "memID": 177,
     "memName": "Melissa Bowman",
     "email": "nrodriguez@hernandez-salazar.org",
-    "memType": "PI",
+    "memType": "phd student",
     "memStart": "2022-02-11",
     "memEnd": null,
     "phone": "+1-544-799-0040x23121"
@@ -1596,7 +1596,7 @@
     "memID": 178,
     "memName": "Tonya Stein DVM",
     "email": "anthonyjacobs@woods.biz",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2025-02-20",
     "memEnd": null,
     "phone": "454-078-0582"
@@ -1623,7 +1623,7 @@
     "memID": 181,
     "memName": "Elizabeth Schwartz",
     "email": "joshuamurray@hotmail.com",
-    "memType": "PI",
+    "memType": "volunteer",
     "memStart": "2024-07-23",
     "memEnd": null,
     "phone": "111.437.1849"
@@ -1659,7 +1659,7 @@
     "memID": 185,
     "memName": "Kelsey Thomas",
     "email": "leonardrodriguez@miranda.info",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2022-04-24",
     "memEnd": "2024-06-18",
     "phone": "248.374.4778x44382"
@@ -1668,7 +1668,7 @@
     "memID": 186,
     "memName": "Dr. Debra Davenport",
     "email": "breanna61@duarte.com",
-    "memType": "PI",
+    "memType": "volunteer",
     "memStart": "2020-12-03",
     "memEnd": null,
     "phone": "001-678-825-0852x49392"
@@ -1677,7 +1677,7 @@
     "memID": 187,
     "memName": "Ashley Pennington",
     "email": "scottcoleman@gmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2021-02-21",
     "memEnd": null,
     "phone": "1392664258"
@@ -1686,7 +1686,7 @@
     "memID": 188,
     "memName": "Derrick Turner",
     "email": "charles21@whitehead.org",
-    "memType": "masters student",
+    "memType": "PI",
     "memStart": "2021-07-21",
     "memEnd": null,
     "phone": "(819)722-8676"
@@ -1704,7 +1704,7 @@
     "memID": 190,
     "memName": "John Evans",
     "email": "xrobertson@smith.net",
-    "memType": "PI",
+    "memType": "phd studen",
     "memStart": "2021-05-09",
     "memEnd": null,
     "phone": "001-173-169-5971"
@@ -1731,7 +1731,7 @@
     "memID": 193,
     "memName": "Kimberly Smith",
     "email": "dbrandt@gmail.com",
-    "memType": "Volunteer",
+    "memType": "volunteer",
     "memStart": "2024-08-13",
     "memEnd": null,
     "phone": "+1-980-962-2864"
@@ -1794,7 +1794,7 @@
     "memID": 200,
     "memName": "Rebecca Ray",
     "email": "snydervictor@hunt.com",
-    "memType": "PI",
+    "memType": "research assistant",
     "memStart": "2024-10-26",
     "memEnd": null,
     "phone": "428.366.5554"

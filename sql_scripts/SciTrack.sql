@@ -20,8 +20,8 @@ CREATE TABLE Member(
 	'masters student',
 	'phd student',
 	'research scientist',
-    'Volunteer',
-	'PI'
+    'volunteer',
+	'Faculty'
 	))
 );
 
